@@ -1,0 +1,209 @@
+/* header::before{
+    content: '';
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; */
+/* } */
+body{
+    background: url("img/bg.jpg") no-repeat center center/cover;
+    /* opacity: 3; */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav1{
+    /* border: 2px solid white; */
+    display: inline-block;
+    width: 50px;
+    position: fixed;
+    /* position: absolute; */
+    top: 20px;
+    left: 10px;
+}
+#nav2{
+    border: 2px solid white;
+    border-radius: 10px;
+    /* display: inline-block; */
+    position: fixed;
+    top: 20px;
+    right: 301.867px;
+    width: 60%;
+    margin: 20px auto;
+}
+#nav1 img{
+    margin-left: 24px;
+    width: 45px ;
+}
+#nav1 p{
+    color: antiquewhite;
+    display: inline-block;
+    margin: 3px;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+}
+#nav3{
+    /* border: 2px solid white; */
+    display: inline-block;
+    width: 10%;
+    position: fixed;
+    top: 39px;
+    right: 10px;
+}
+#nav3 .signIn{
+    padding: 6px 15px;
+    border: 3px solid white;
+    margin: 1px 25px;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#nav3 .signIn:hover{
+    background-color: rgb(22, 24, 37);
+}
+.header #nav2 a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 2px 75px;
+    padding: 2px 2px;
+    text-align: center;
+}
+.header #nav2 a:hover{
+    text-decoration: underline;
+    color: rgb(150, 141, 141);
+}
+.heading{
+    /* display: inline-block; */
+    width: 660px;
+    /* margin: 150px; */
+    /* margin:  auto; */
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.body .firstpara {
+    /* display: inline-block; */
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.searchbox{
+    display: inline-block;
+    width: 290px;
+    padding: 6px;
+    margin: 16px 0px;
+    position: absolute;
+    right: 50%;
+    left: 40.5%;
+}
+.form .inputs{
+    
+    display: block;
+    width: 400px;
+    margin: 15px;
+    font-size: 14px;
+    /* margin-top: 80px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.form #first{
+    margin-top: 80px;
+}
+.heading1 h1{
+    font-family: 'ink free', cursive;
+    font-size: 35px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 120px;
+}
+.form{
+    background-color: rgb(24, 11, 36);
+    /* display: inline-block; */
+    width: 600px;
+    border: 2px solid white;
+    padding: 45px;
+    margin: auto;
+    /* margin-left: 450px; */
+    /* margin-right: auto; */
+}
+.form .inputs{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#Submit{
+    background-color: rgb(111, 86, 150);
+    color: rgb(24, 11, 36);
+}
+.display{
+    background-color: rgb(12, 18, 31);
+    width: 90%;
+    margin: 25px auto;
+    border: 3px solid white;
+    margin-bottom: 200px;
+}
+.display .box{
+    background-color: rgb(39, 9, 66);
+    display: inline-block;
+    border: 2px solid white;
+    margin: 10px 21px;
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: 7px 5px 15px 5px black ;
+}
+.display .box img{
+    display: block;
+    padding: 20px 0px;
+    margin: auto;
+    width: 250px;
+}
+.display .box:hover{
+    background-color: rgb(56, 15, 92);
+}
+.display .box .add{
+    display: block;
+    width: 200px;
+    /* margin-left: 150px; */
+    margin: 5px auto;
+    padding: 5px;
+}
+.details .contact, .social, .feedback{
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding: 50px 150px;
+    /* margin-top: 100px; */
+    display: inline-block;
+    width: 30%;
+}
+.details .social a{
+    display: block;
+    width: 132px;
+    padding: 10px 5px;
+    margin: 16px 5px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.feedback .feedbackform{
+    padding: 10px 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 16px 5px;
+}
+button{
+    margin: 5px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#nav2{
+    background-color: rgb(12, 18, 31);
+}
